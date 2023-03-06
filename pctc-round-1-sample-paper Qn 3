@@ -1,0 +1,10 @@
+#PCTC round 1 sample paper Qn 3
+
+message=input("Input a message: ")
+
+
+quotient = 30 // len(message)
+
+multiple = quotient + 1
+char = message * int(multiple)
+print(char)
